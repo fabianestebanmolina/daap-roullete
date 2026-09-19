@@ -1,0 +1,7 @@
+cat > .gitignore << 'EOF'
+echo "bets.db" >> .gitignore
+venv/
+__pycache__/
+*.pyc
+.env
+EOF
